@@ -1,0 +1,424 @@
+/*Home*/
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: #000000;
+  font-size: 1.1em !important;
+}
+
+.home {
+  background-image: url('home_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.home:hover {
+  opacity: 1.0;
+}
+
+.text {
+  color: #000000;
+  font-family: 'Sacramento', cursive;
+  font-size: 6.625rem;
+  font-weight: 500;
+  margin: auto;
+  padding-top: 154px;
+  line-height: 1;
+}
+
+.paragraph {
+  color: #000000;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 3rem;
+}
+
+/*Meet Chinedu*/
+header {
+  height: 100vh;
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  background: #3f3f3f;
+  color: white;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pro {
+  font-family: monospace;
+  font-size: 2em;
+}
+
+.about {
+  justify-content: center;
+  /*height: 300vh;*/
+}
+
+.mark {
+  color: white;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #5cb85c;
+}
+
+.about-title {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  color: white;
+  background-color: #df760b;
+}
+
+.about-pages {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.about-me {
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+  width: 75%;
+}
+
+.about-p {
+  font-family: monospace;
+  line-height: normal;
+}
+
+.image {
+  width: 100%;
+  height: 100vh;
+}
+
+.bg {
+  background-color: #df760b;
+}
+
+.btn {
+  margin-top: 2rem;
+  margin-right: 20px;
+}
+
+p h5 {
+  color: white;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-inner img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.carousel-caption {
+  padding-bottom: 1rem;
+}
+
+.carousel {
+  background: black;
+}
+
+.jumb {
+  background: #df760b;
+}
+
+.jumbotron {
+  padding: 1.5rem;
+  border-radius: 0;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%
+}
+
+.fa-check {
+  background-color: #df760b;
+}
+
+.my-hr {
+  border: dotted green 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+.display-4 {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 2rem;
+  /*  padding-bottom: 2rem; */
+}
+
+.lead p {
+  font-family: 'Merriweather', sans-serif;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+.d-inline-block {
+  width: 300px;
+  height: 150px;
+  padding: 2rem;
+}
+
+.fixed-wrap {
+  background-image: url('fixed.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 500px;
+}
+
+.competence {
+  text-align: center;
+  background-image: url('competence_background.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+}
+
+.table {
+  color: #df760b;
+  margin: auto;
+  padding-bottom: 2rem;
+  width: 50%;
+}
+
+table th {
+  text-align: center;
+}
+
+.star {
+  color: green;
+}
+
+.star:hover, .star:active {
+  font-size: 150%;
+}
+
+.color {
+  color: #df760b;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.language {
+  background: #df760b;
+}
+
+.lang {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.social-text {
+  padding-bottom: 4.5rem;
+}
+
+.social {
+  justify-content: center;
+  /*margin: 0;*/
+  /*padding-top: 2rem;*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*position: absolute;*/
+  display: flex;
+}
+
+.social .ul {
+  align-self: center;
+  font-size: 2em;
+  list-style: none;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  margin: 0 10px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(0deg, #ddd, #fff);
+  transition: .5s;
+}
+
+.social .ul:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.social .ul .fab {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fff, #ddd);
+  border-radius: 50%;
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: .5s;
+}
+
+.social .ul:nth-child(1) .fab:hover {
+  color: #3b5998;
+}
+
+.social .ul:nth-child(2) .fab:hover {
+  color: #00aecd;
+}
+
+.social .ul:nth-child(3) .fab:hover {
+  color: #bc2a8d;
+}
+
+.social .ul:nth-child(4) .fab:hover {
+  color: #bb0000;
+}
+
+.social .ul:nth-child(5) .fab:hover {
+  color: #007bb6;
+}
+
+.social .ul:nth-child(6) .fab:hover {
+  color: #00aff0;
+}
+
+footer {
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+.lighter {
+  border-top: 1px solid #d5d5d5;
+  width: 100%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
+}
+
+/*Connect*/
+.connect-body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 50, 0.5), rgba(0, 0, 50, 0.5)), url('contact_background.jpg');
+  background-size: cover;
+  width: 100vw;
+  background-position: center;
+  font-family: 'Montserrat'sans-serif;
+}
+
+.connect-title {
+  margin-top: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+
+.start {
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+
+.connect-title .start {
+  font-size: 32px;
+  line-height: 2;
+}
+
+.connect-title .contact-h2 {
+  font-size: 16px;
+}
+
+.contact-h2 {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 75%;
+  padding-bottom: 1rem;
+}
+
+.contact-form {
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+}
+
+form {
+  margin-top: 20px;
+  transition: all 4s ease-in-out;
+}
+
+.form-control {
+  width: 300px;
+  background: transparent;
+  border: none;
+  margin: 0 auto;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  justify-content: center;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background: #ff5722;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  width: 75%;
+}
+
+form .submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+.fixed-bottom {
+  top: 370px;
+}
